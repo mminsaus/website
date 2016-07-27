@@ -1,0 +1,11 @@
+html {
+	background: url(../images/under_construction.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+}
