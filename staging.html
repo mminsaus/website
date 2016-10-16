@@ -82,7 +82,7 @@
         <h4>Privacy Policy</h4>
       </header>
       <div class="w3-container">
-        <p>I probably won't steal all your information and sell it on the internet</p>
+        <p>I probably won't steal all your information and sell it on the internet.</p>
       </div>
     </div>
   </div>
@@ -101,7 +101,6 @@
   <!-- Team Container -->
   <div class="w3-container w3-padding-64 w3-center" id="about">
     <h2>ABOUT ME</h2>
-    <p>Meet the team:</p>
     <div class="w3-row">
       <br>
       <div class="w3-full">
@@ -109,9 +108,10 @@
         <h3>Maryanne Middlemiss</h3>
         <p>Hi! I'm Mary. Here is a little poem about me.</p>
         <p>
-          I'm the best
-          <br> Yeah Yeah Yeah
-          <br>
+          Roses are red
+          <br> Violets are blue
+          <br> Sugar is sweet
+          <br> I'm doing a poo
         </p>
         <p>I hope you liked it.</p>
       </div>
@@ -249,11 +249,13 @@
   </div>
   <!-- Google Maps -->
   <div id="googleMap" style="width:100%;height:420px;"></div>
-  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <!-- // <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBinfcIc7azedYULI32k_4F_JMAzDvNuWI"
+  type="text/javascript"></script>
   <script>
   var myCenter = new google.maps.LatLng(-34.8833, 150.6000);
 
-  function initialize() {
+  function initMap() {
     var mapProp = {
       center: myCenter,
       zoom: 10,
@@ -271,7 +273,7 @@
     marker.setMap(map);
   }
 
-  google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'load', initMap);
   </script>
   <!-- Footer -->
   <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
@@ -280,7 +282,7 @@
     <a class="w3-btn-floating w3-blue" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
     <a class="w3-btn-floating w3-blue" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
     <a class="w3-btn-floating w3-blue w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-    <p>Copyright Maryanne Middlemiss Insurance Solutions pty ltd. 2016</p>
+    <p>Copyright Maryanne Middlemiss Insurance Solutions Pty Ltd. 2016</p>
     <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
       <span class="w3-text w3-padding w3-blue w3-hide-small">Go To Top</span>
       <a class="w3-btn w3-theme" href="#myPage"><span class="w3-xlarge"><i class="fa fa-chevron-circle-up"></i></span></a>
